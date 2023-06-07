@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://i.postimg.cc/qBSkbw39/81mq-HLez-XNL-AC-SL1500.jpg);
+}
+
+.cont {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 85%;
+}
+
+input {
+  border: 2px solid red;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: end;
+  font-size: 3rem;
+}
+
+.keyboard {
+  width: 100%;
+  height: fit-content;
+  backdrop-filter: blur(15px);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.first-row {
+  border: 2px solid black;
+  height: 100%;
+}
+
+.col {
+  margin: 3px;
+  width: 5%;
+  height: 2.4rem;
+}
+
+p {
+  font-size: 10px;
+  cursor: default;
+  margin-bottom: 2px;
+}
+
+.col h5 {
+  font-size: 17px;
+  cursor: default;
+}
+
+.col h6 {
+  font-size: 10px;
+}
+
+.top {
+  float: left;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+.top-1 {
+  float: left;
+}
+
+.bottom {
+  float: right;
+}
+
+ion-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.colon {
+  width: 30%;
+  height: 3rem;
+}
+
+.num {
+  width: 40%;
+  height: 3rem;
+}
+
+.inside {
+  display: flex;
+  flex-direction: column;
+}
+
+.second {
+  width: 46.4%;
+  height: 3rem;
+}
+
+.backspace {
+  width: 60%;
+  height: 3rem;
+}
+
+.back {
+  width: 100%;
+  border-radius: 3px 3px 25px 25px / 3px 3px 5px 5px;
+}
+
+.numlock p {
+  font-size: 12px;
+}
+.numlock {
+  border-radius: 3px 3px 25px 25px / 3px 3px 5px 5px;
+}
+
+.operator {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px 3px 25px 25px / 3px 3px 5px 5px;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  border-radius: 3px;
+  border: 2px solid black;
+  border-radius: 3px 3px 9px 9px / 3px 3px 5px 5px;
+  background-color: black;
+  color: white;
+}
+
+.top-2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.btm {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.btn-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* height: 20px; */
+  font-size: 20px;
+  padding-left: 5px;
+  border-radius: 3px 3px 25px 25px / 3px 3px 5px 5px;
+}
+.btn-7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 20px; */
+  font-size: 20px;
+  /* padding-left: 5px; */
+  border-radius: 3px 3px 25px 25px / 3px 3px 5px 5px;
+}
+
+
+.ops {
+  font-size: 15px;
+}
+
+.col-3 {
+  width: 46.4%;
+  height: 3rem;
+}
+.col-3-1 {
+    width: 40%;
+  height: 3rem;
+}
+.col-3-9 {
+    width: 43%;
+  height: 3rem;
+}
+
+.perc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow ion-icon{
+    width: 15px;
+    height: 15px;
+}
+
+
+.col-3-2{
+  width: 70%;
+  height: 3rem;
+}
+.col-3-3{
+  width: 95%;
+  height: 3rem;
+}
+.col-3-4{
+  width: 50%;
+  height: 3rem;
+}
+.col-3-5{
+  width: 280rem;
+  height: 3rem;
+}
+.col-3-6{
+  width: 40%;
+  height: 3rem;
+}
+.col-3-8{
+  width: 40%;
+  height: 3rem;
+}
+
+.btn-3{
+  width: 100%;
+  height: 1.5rem;
+}
+.col-3-7{
+  width: 72rem;
+  height: 3rem;
+}
+
+.side{
+  border-radius: 5px 5px 0px 0px / 3px 3px 5px 5px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sid{
+  border-radius: 0px 0px 20px 20px / 3px 3px 5px 5px;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.right{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+.right-sid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cnt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cntr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
